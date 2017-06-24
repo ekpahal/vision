@@ -23,7 +23,6 @@
     color:#ffffff;
 }
 .contain {
-    border-top: 2px solid white; 
   position: relative;
   height: 100px;
   text-align: center;
@@ -61,42 +60,6 @@
   opacity: 0.1;
   background-blend-mode: color-dodge;
 }*/
-.home-demo .font-slider{
-    position:absolute;display:block;
-    -webkit-transition:all 0.4s ease-out;
-    -moz-transition:all 0.4s ease-out;
-    -ms-transition:all 0.4s 
-    ease-out;-o-transition:all 0.4s ease-out;
-    transition:all 0.4s ease-out;
-    opacity:0
-}
-.home-demo .font-slider{
-    bottom:42px;
-    color:rgba(0,19,26,0.43);
-    padding:0 0px;
-    width:30%
-    }
-    @media only screen and (max-width: 500px)
-    {.home-demo .font-slider{display:none}}
-    .home-demo .font-slider.right:before, .font-slider.actions:before, .home-demo .font-slider
-    .actions:before,.home-demo .project-details .font-slider.actions:before,.project-details .home-demo
-     .font-slider.actions:before,.home-demo .account-projects .font-slider.actions:before,
-     .account-projects .home-demo .font-slider.actions:before,.home-demo .project-embed .font-slider
-     .actions:before,.project-embed .home-demo .font-slider.actions:before,.home-demo .icon-details 
-     .font-slider.actions:before,.icon-details .home-demo .font-slider.actions:before,.home-demo 
-     .downloads .font-slider.actions:before,.downloads .home-demo .font-slider.actions:before,
-     .home-demo .test .font-slider.actions:before,.test .home-demo .font-slider.actions:before,
-     .home-demo .font-slider:after
-    {
-        display:inline-block;font-size:10px;left:0;margin-top:19px;position:absolute;top:0}
-        .home-demo .font-slider:after{font-size:16px;left:auto;margin-top:16px;right:0}
-        .home-demo .font-slider input{width:100%}
-        .customers{margin-top:0;padding:72px 0;text-align:center}
-        .customers img{display:block}
-        .home-demo:hover .font-slider,.home-demo:hover label,.home-typer input:focus ~ .font-slider,.home-typer input:focus ~ label,.home-demo.active .font-slider,.home-demo.active label{
-            opacity:1;-webkit-transition:opacity 0.1s ease-out;-moz-transition:opacity 0.1s ease-out;
-            -ms-transition:opacity 0.1s ease-out;-o-transition:opacity 0.1s ease-out;
-    transition:opacity 0.1s ease-out}
 #menu{
     /*font-weight: bold;*/
     padding-left: 8px;
@@ -246,21 +209,6 @@ table td + td {
 }
 
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
-    0% {background-color: #ff69b4;}
-    25% {background-color: #ff4040;}
-    50% {background-color: #FD5F00;}
-    75% {background-color: #cccc00;}
-
-}
-
-/* Standard syntax */
-@keyframes example {
-    0% {background-color: #ff69b4;}
-    25% {background-color: #ff4040;}
-    50% {background-color: #FD5F00;}
-    75% {background-color: #cccc00;}
-}
 .popup {
     position: relative;
     display: inline-block;
@@ -343,4 +291,42 @@ table td + td {
 border-radius: 20px 0px 0px 20px;
 margin-left: 131.5px;
 color: black;
+}
+.content1{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  background-color: white;
+  /*background-blend-mode:*/ 
+border-radius: 0px 20px 20px 0px;
+margin-right: 13px;
+color: black;
+}
+.bgs {
+    background-color: red;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    position: absolute;height:100%;width:100%;opacity: 0.5;
+    margin-left: 0px;
+    background-repeat: no-repeat;
+    background-size:cover; 
+}
+@-webkit-keyframes example {
+    0% {background-image: url(Images/a1.jpg);}
+    25% {background-image: url(Images/a2.jpg);}
+    50% {background-image: url(Images/a3.jpg);}
+    75% {background-image: url(Images/a4.jpg);}
+    100% {background-image: url(Images/a1.jpg);}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0% {background-image: url(Images/a1.jpg);}
+    25% {background-image: url(Images/a2.jpg);}
+    50% {background-image: url(Images/a3.jpg);}
+    75% {background-image: url(Images/a4.jpg);}
+    100% {background-image: url(Images/a1.jpg);}
 }
