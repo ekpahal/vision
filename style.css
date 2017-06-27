@@ -303,7 +303,7 @@ border-radius: 20px 0px 0px 20px;
     background-size:cover; 
 }
 .backg{
-  margin-top: 20px;
+  margin-top: 5px;
   background-image:url(Images/storybg.jpg);
   height: 52em;
 }
