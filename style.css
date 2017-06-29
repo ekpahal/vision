@@ -20,6 +20,17 @@
   height: 100px;
   text-align: center;
 }
+.col4{
+    width: 33%;
+    position: relative;
+  min-height: 1px;
+  float: left;
+}
+.col8{
+    width: 67%;
+    position: relative;
+  min-height: 1px;float: left;
+}
 #block {
   background: #CCC;
   filter: alpha(opacity=60);
